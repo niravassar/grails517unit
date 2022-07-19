@@ -2,9 +2,8 @@ package example.my
 
 class SimpleController {
 
-    def index() { }
-
     def hello() {
+        Integer conn
         render "Nirav"
     }
 }
